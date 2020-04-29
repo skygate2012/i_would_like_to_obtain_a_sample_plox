@@ -5,7 +5,6 @@
   "version": "0.1.0",
   "author": "William Parker",
   "homepage_url": "https://github.com/skygate2012/i_would_like_to_obtain_a_sample_plox",
-  "default_locale": "en",
   
   "permissions": [
     "webRequest",
