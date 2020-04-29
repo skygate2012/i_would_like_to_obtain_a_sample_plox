@@ -12,17 +12,17 @@
   ],
   
   "browser_action": {
-    "default_icon": "icon.svg"
+    "default_icon": "icons/icon.svg"
   },
 
   "description": "Saves the audio samples from the demo page of Google Cloud Text-to-Speech (https://cloud.google.com/text-to-speech)",
 
   "icons": {
-    "16": "icon.svg",
-    "32": "icon.svg",
-    "48": "icon.svg",
-    "64": "icon.svg",
-    "96": "icon.svg"
+    "16": "icons/icon.svg",
+    "32": "icons/icon.svg",
+    "48": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "96": "icons/icon.svg"
   },
 
   "content_scripts": [
