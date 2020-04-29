@@ -1,5 +1,7 @@
 # i_would_like_to_obtain_a_sample_plox
-A browser extension (WebExtension) that saves the audio samples from the demo page of Google Cloud Text-to-Speech (https://cloud.google.com/text-to-speech)
+![addon_icon](icons/icon-128.png "addon icon")
+
+A browser addon (WebExtension) that saves the audio samples from the demo page of Google Cloud Text-to-Speech (https://cloud.google.com/text-to-speech)
 
 ## Instructions
 1. Go to the demo page of [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech)
