@@ -1,0 +1,40 @@
+{
+
+  "manifest_version": 2,
+  "name": "i would like to obtain a sample plox",
+  "version": "0.1.0",
+  "author": "skygate2012",
+  "homepage_url": "https://github.com/skygate2012/i_would_like_to_obtain_a_sample_plox",
+  "default_locale": "en",
+  
+  "permissions": [
+    "webRequest",
+    "<all_urls>"
+  ],
+  
+  "browser_action": {
+    "default_icon": "icon.svg"
+  },
+
+  "description": "Saves the audio samples from the demo page of Google Cloud Text-to-Speech (https://cloud.google.com/text-to-speech)",
+
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "64": "icon.svg",
+    "96": "icon.svg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://cloud.google.com/*"],
+      "js": ["main.js"]
+    }
+  ],
+  
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
